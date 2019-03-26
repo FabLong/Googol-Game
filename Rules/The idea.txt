@@ -1,0 +1,11 @@
+Title: Googol
+
+A Googol refers to the number 1.0 × 10^100
+##########################################
+
+So, What's the game?
+####################
+
+You get provided a set number of cards i.e 10, with a different hidden number on each, that range from 1 to a Googol in a random order.
+
+The aim is turn each card over 1 by one until you believe you have the largest number out of all the cards. 
