@@ -40,6 +40,8 @@ my_value = 0
 choice = ""
 #Display numbers + Choosing
 for i in range(len(numbers)):
+    #Card number
+    print("Card number:" + str(i + 1))
     #Display number
     print (numbers[i])
 
