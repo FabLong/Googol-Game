@@ -20,7 +20,7 @@ print("You have to decide if the card you have just been given is the card with 
 print("If you get this correct you win. Goodluck!")
 
 #Number of playing Cards
-cards = int(input("How many cards would you like to play with?"))
+cards = int(input("How many cards would you like to play with? "))
 
 
 #Choosing Gamemode (Potential value of numbers)
@@ -47,7 +47,7 @@ for i in range(len(numbers)):
 
     #Ask user if they believe this is the largest number
     while choice not in ("Y", "N", "y", "n"):
-        choice = str(input("Do you think this is the largest number? Y | N" ))
+        choice = str(input("Do you think this is the largest number? Y | N "))
 
     #Breaking loop if number is believed to be largest number and storing chosen number
     if choice == ("Y") or choice == ("y"):
