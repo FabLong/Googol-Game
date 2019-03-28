@@ -4,12 +4,12 @@ import random
 
 #VERY! Early Access
 print("VERY! Early Access\n")
-
+print("Game no longer includes an actual Googol\n")
 #Assign List
 numbers = []
 
 #Googol Value
-googol = 10**100
+googol = 10**10
 
 #Quick Rules:
 print("Welcome To: GOOGOL\n")
@@ -26,7 +26,7 @@ cards = int(input("How many cards would you like to play with?"))
 #Choosing Gamemode (Potential value of numbers)
 choice = ("")
 while choice not in ("Y", "N", "y", "n"):
-    choice = str(input("Easy mode: Y | N"))
+    choice = str(input("Easy mode: Y | N "))
 
 if choice == ("Y") or choice == ("y"):
     googol = 100
@@ -47,7 +47,7 @@ for i in range(len(numbers)):
 
     #Ask user if they believe this is the largest number
     while choice not in ("Y", "N", "y", "n"):
-        choice = str(input("Do you think this is the largest number? Y | N"))
+        choice = str(input("Do you think this is the largest number? Y | N" ))
 
     #Breaking loop if number is believed to be largest number and storing chosen number
     if choice == ("Y") or choice == ("y"):
